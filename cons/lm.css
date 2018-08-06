@@ -1,0 +1,23 @@
+#nav{
+	text-decoration: none;
+	font-family: "Montserrat";
+	background-color: #fbfbfb;
+}
+ #nav li a{
+	list-style-type: none;
+	display: block;
+}
+li{
+	float: left;
+}
+a li{
+	display: block;
+	width: 200px;
+    text-align: center;
+    color: #000;
+    margin-left: 250px;
+    font-size: 30px;
+}
+a li:hover:not(.active){
+	background-color: #464646;
+}
